@@ -1,0 +1,612 @@
+[
+  {
+    "source": "nova",
+    "state": "VERIFIED",
+    "answer": 30.0,
+    "package": {
+      "state": "VERIFIED",
+      "original_question": "Zoe received $120 from Amir. Zoe gave Ivy $90. How much money does Zoe have left from the $120?",
+      "lexical": [
+        {
+          "word": "give",
+          "senses": [
+            {
+              "meaning": "transfer possession from giver to recipient",
+              "synonyms": [
+                "hand",
+                "transfer"
+              ],
+              "antonyms": [
+                "receive"
+              ],
+              "context_hits": [
+                "money"
+              ]
+            }
+          ],
+          "contextual_candidates": [
+            "transfer possession from giver to recipient"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "Zoe received $120 from Amir. Zoe gave Ivy $90. How much money does Zoe have left from the $120?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Amir",
+              "recipient": "Zoe",
+              "amount": "120",
+              "executed": true
+            },
+            {
+              "giver": "Zoe",
+              "recipient": "Ivy",
+              "amount": "90",
+              "executed": true
+            }
+          ]
+        },
+        "concept": {
+          "actor": "zoe",
+          "action": "give",
+          "patient_tokens": [
+            "ivy",
+            "90",
+            "how",
+            "much",
+            "money",
+            "does",
+            "zoe",
+            "have",
+            "left",
+            "from",
+            "the",
+            "120"
+          ]
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Amir transferred 120 to Zoe",
+        "Zoe transferred 90 to Ivy"
+      ],
+      "verified_answer": 30.0,
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "VERIFIED",
+          "answer": 30.0,
+          "proof": [
+            "Amir transferred 120 to Zoe",
+            "Zoe transferred 90 to Ivy"
+          ],
+          "balances": {
+            "Amir": -120.0,
+            "Zoe": 30.0,
+            "Ivy": 90.0
+          },
+          "scope": "scoped transfer arithmetic under limited parser assumptions",
+          "events": [
+            {
+              "giver": "Amir",
+              "recipient": "Zoe",
+              "amount": "120",
+              "executed": true,
+              "_position": 0,
+              "_end": 27
+            },
+            {
+              "giver": "Zoe",
+              "recipient": "Ivy",
+              "amount": "90",
+              "executed": true,
+              "_position": 29,
+              "_end": 45
+            }
+          ],
+          "unparsed_events": []
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger"
+      }
+    }
+  },
+  {
+    "source": "nova",
+    "state": "UNSUPPORTED",
+    "answer": null,
+    "package": {
+      "state": "UNSUPPORTED",
+      "original_question": "Eli received $100 from Sam. Eli gave Noah $30. Noah refunded Eli $10. How much money does Eli have left from the $100?",
+      "lexical": [
+        {
+          "word": "give",
+          "senses": [
+            {
+              "meaning": "transfer possession from giver to recipient",
+              "synonyms": [
+                "hand",
+                "transfer"
+              ],
+              "antonyms": [
+                "receive"
+              ],
+              "context_hits": [
+                "money"
+              ]
+            }
+          ],
+          "contextual_candidates": [
+            "transfer possession from giver to recipient"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "Eli received $100 from Sam. Eli gave Noah $30. Noah refunded Eli $10. How much money does Eli have left from the $100?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true
+            },
+            {
+              "giver": "Eli",
+              "recipient": "Noah",
+              "amount": "30",
+              "executed": true
+            }
+          ]
+        },
+        "concept": {
+          "actor": "eli",
+          "action": "give",
+          "patient_tokens": [
+            "noah",
+            "30",
+            "noah",
+            "refunded",
+            "eli",
+            "10",
+            "how",
+            "much",
+            "money",
+            "does",
+            "eli",
+            "have",
+            "left",
+            "from",
+            "the",
+            "100"
+          ]
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Sam transferred 100 to Eli",
+        "Eli transferred 30 to Noah"
+      ],
+      "verified_answer": null,
+      "warning": "NOVA has no verified result; this does NOT imply the question is unanswerable.",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [
+            "Sam transferred 100 to Eli",
+            "Eli transferred 30 to Noah"
+          ],
+          "unparsed_events": [
+            {
+              "term": "refunded",
+              "span": [
+                52,
+                60
+              ]
+            },
+            {
+              "term": "unmatched_amount",
+              "span": [
+                65,
+                68
+              ],
+              "text": "$10"
+            }
+          ],
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true,
+              "_position": 0,
+              "_end": 26
+            },
+            {
+              "giver": "Eli",
+              "recipient": "Noah",
+              "amount": "30",
+              "executed": true,
+              "_position": 28,
+              "_end": 45
+            }
+          ],
+          "balances": {
+            "Sam": -100.0,
+            "Eli": 70.0,
+            "Noah": 30.0
+          },
+          "scope": "Unparsed financial actions may affect the requested balance; no certified answer."
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger"
+      }
+    }
+  },
+  {
+    "source": "nova",
+    "state": "UNSUPPORTED",
+    "answer": null,
+    "package": {
+      "state": "UNSUPPORTED",
+      "original_question": "Eli received $100 from Sam. Eli gave Noah $30. Eli found $10. How much money does Eli have left from the $100?",
+      "lexical": [
+        {
+          "word": "give",
+          "senses": [
+            {
+              "meaning": "transfer possession from giver to recipient",
+              "synonyms": [
+                "hand",
+                "transfer"
+              ],
+              "antonyms": [
+                "receive"
+              ],
+              "context_hits": [
+                "money"
+              ]
+            }
+          ],
+          "contextual_candidates": [
+            "transfer possession from giver to recipient"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "Eli received $100 from Sam. Eli gave Noah $30. Eli found $10. How much money does Eli have left from the $100?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true
+            },
+            {
+              "giver": "Eli",
+              "recipient": "Noah",
+              "amount": "30",
+              "executed": true
+            }
+          ]
+        },
+        "concept": {
+          "actor": "eli",
+          "action": "give",
+          "patient_tokens": [
+            "noah",
+            "30",
+            "eli",
+            "found",
+            "10",
+            "how",
+            "much",
+            "money",
+            "does",
+            "eli",
+            "have",
+            "left",
+            "from",
+            "the",
+            "100"
+          ]
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Sam transferred 100 to Eli",
+        "Eli transferred 30 to Noah"
+      ],
+      "verified_answer": null,
+      "warning": "NOVA has no verified result; this does NOT imply the question is unanswerable.",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [
+            "Sam transferred 100 to Eli",
+            "Eli transferred 30 to Noah"
+          ],
+          "unparsed_events": [
+            {
+              "term": "unmatched_amount",
+              "span": [
+                57,
+                60
+              ],
+              "text": "$10"
+            }
+          ],
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true,
+              "_position": 0,
+              "_end": 26
+            },
+            {
+              "giver": "Eli",
+              "recipient": "Noah",
+              "amount": "30",
+              "executed": true,
+              "_position": 28,
+              "_end": 45
+            }
+          ],
+          "balances": {
+            "Sam": -100.0,
+            "Eli": 70.0,
+            "Noah": 30.0
+          },
+          "scope": "Unparsed financial actions may affect the requested balance; no certified answer."
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger"
+      }
+    }
+  },
+  {
+    "source": "nova",
+    "state": "LEXICAL",
+    "answer": "give up possession or control",
+    "package": {
+      "state": "LEXICAL",
+      "original_question": "What does relinquish mean?",
+      "lexical": [
+        {
+          "word": "relinquish",
+          "senses": [
+            {
+              "meaning": "give up possession or control",
+              "synonyms": [
+                "surrender",
+                "yield",
+                "release"
+              ],
+              "antonyms": [
+                "retain",
+                "keep"
+              ],
+              "context_hits": []
+            }
+          ],
+          "contextual_candidates": [],
+          "ambiguous": true
+        }
+      ],
+      "concepts": {
+        "original": "What does relinquish mean?",
+        "slots": {
+          "who": null,
+          "what": null,
+          "to_whom_or_object": null,
+          "when": null,
+          "where": null,
+          "why": null,
+          "how": null
+        },
+        "concept": {
+          "actor": null,
+          "action": null,
+          "patient_tokens": []
+        },
+        "polarity": "positive",
+        "known_slots": [],
+        "unknown_slots": [
+          "who",
+          "what",
+          "to_whom_or_object",
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "insufficient",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation."
+        ]
+      },
+      "proof": [],
+      "verified_answer": "give up possession or control",
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [],
+          "balances": {},
+          "scope": "No independently verified answer; balances represent observed net transfers, not starting wealth.",
+          "events": [],
+          "unparsed_events": []
+        },
+        "lexical_routing": {
+          "status": "LEXICAL",
+          "answer": "give up possession or control",
+          "source": "local_demo_lexicon",
+          "reason": "single listed sense; not independently verified"
+        },
+        "answer_origin": "lexical_demo"
+      }
+    }
+  },
+  {
+    "source": "nova",
+    "state": "LEXICAL",
+    "answer": "manage or operate",
+    "package": {
+      "state": "LEXICAL",
+      "original_question": "What does runs mean in She runs the studio?",
+      "lexical": [
+        {
+          "word": "run",
+          "senses": [
+            {
+              "meaning": "move quickly on foot",
+              "synonyms": [
+                "sprint",
+                "jog"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            },
+            {
+              "meaning": "manage or operate",
+              "synonyms": [
+                "manage",
+                "operate",
+                "direct"
+              ],
+              "antonyms": [],
+              "context_hits": [
+                "studio"
+              ]
+            },
+            {
+              "meaning": "execute software",
+              "synonyms": [
+                "execute",
+                "launch"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            }
+          ],
+          "contextual_candidates": [
+            "manage or operate"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "What does runs mean in She runs the studio?",
+        "slots": {
+          "who": null,
+          "what": null,
+          "to_whom_or_object": null,
+          "when": null,
+          "where": "She runs the studio",
+          "why": null,
+          "how": null
+        },
+        "concept": {
+          "actor": null,
+          "action": null,
+          "patient_tokens": []
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "where"
+        ],
+        "unknown_slots": [
+          "who",
+          "what",
+          "to_whom_or_object",
+          "when",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "insufficient",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation."
+        ]
+      },
+      "proof": [],
+      "verified_answer": "manage or operate",
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [],
+          "balances": {},
+          "scope": "No independently verified answer; balances represent observed net transfers, not starting wealth.",
+          "events": [],
+          "unparsed_events": []
+        },
+        "lexical_routing": {
+          "status": "LEXICAL",
+          "answer": "manage or operate",
+          "source": "local_demo_lexicon",
+          "reason": "unique context-cue match; not independently verified"
+        },
+        "answer_origin": "lexical_demo"
+      }
+    }
+  }
+]

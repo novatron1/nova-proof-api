@@ -1,0 +1,14 @@
+# Bulky run artifacts (kept locally; results are summarized in the
+# committed markdown docs — EVAL_RESULTS.md, ADVANCE_V*.md)
+eval/
+live_test_*/
+live_det_recheck/
+science_test_*/
+
+# Python
+__pycache__/
+*.pyc
+
+# Backup tarballs
+*.tar.gz
+*.tgz

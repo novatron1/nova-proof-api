@@ -1,0 +1,1840 @@
+[
+  {
+    "question": "What does relinquish mean?",
+    "source": "nova",
+    "state": "LEXICAL",
+    "answer": "give up possession or control",
+    "package": {
+      "state": "LEXICAL",
+      "original_question": "What does relinquish mean?",
+      "lexical": [
+        {
+          "word": "relinquish",
+          "senses": [
+            {
+              "meaning": "give up possession or control",
+              "synonyms": [
+                "surrender",
+                "yield",
+                "release"
+              ],
+              "antonyms": [
+                "retain",
+                "keep"
+              ],
+              "context_hits": []
+            }
+          ],
+          "contextual_candidates": [],
+          "ambiguous": true
+        }
+      ],
+      "concepts": {
+        "original": "What does relinquish mean?",
+        "slots": {
+          "who": null,
+          "what": null,
+          "to_whom_or_object": null,
+          "when": null,
+          "where": null,
+          "why": null,
+          "how": null
+        },
+        "concept": {
+          "actor": null,
+          "action": null,
+          "patient_tokens": []
+        },
+        "polarity": "positive",
+        "known_slots": [],
+        "unknown_slots": [
+          "who",
+          "what",
+          "to_whom_or_object",
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "insufficient",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation."
+        ]
+      },
+      "proof": [],
+      "verified_answer": "give up possession or control",
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [],
+          "balances": {},
+          "scope": "No independently verified answer; balances represent observed net transfers, not starting wealth.",
+          "events": [],
+          "unparsed_events": []
+        },
+        "lexical_routing": {
+          "status": "LEXICAL",
+          "answer": "give up possession or control",
+          "source": "local_demo_lexicon",
+          "reason": "single listed sense; not independently verified"
+        },
+        "answer_origin": "lexical_demo",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 0,
+          "certification_scope": "No independently verified answer; balances represent observed net transfers, not starting wealth."
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:relinquish",
+            "kind": "word",
+            "label": "relinquish"
+          },
+          {
+            "id": "sense:relinquish:0",
+            "kind": "sense",
+            "label": "give up possession or control",
+            "context_hits": []
+          },
+          {
+            "id": "word:surrender",
+            "kind": "related_word",
+            "label": "surrender"
+          },
+          {
+            "id": "word:yield",
+            "kind": "related_word",
+            "label": "yield"
+          },
+          {
+            "id": "word:release",
+            "kind": "related_word",
+            "label": "release"
+          },
+          {
+            "id": "word:retain",
+            "kind": "related_word",
+            "label": "retain"
+          },
+          {
+            "id": "word:keep",
+            "kind": "related_word",
+            "label": "keep"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:relinquish",
+            "to": "sense:relinquish:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:relinquish:0",
+            "to": "word:surrender",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:relinquish:0",
+            "to": "word:yield",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:relinquish:0",
+            "to": "word:release",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:relinquish:0",
+            "to": "word:retain",
+            "relation": "antonym"
+          },
+          {
+            "from": "sense:relinquish:0",
+            "to": "word:keep",
+            "relation": "antonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "What does runs mean in She runs the studio?",
+    "source": "nova",
+    "state": "LEXICAL",
+    "answer": "manage or operate",
+    "package": {
+      "state": "LEXICAL",
+      "original_question": "What does runs mean in She runs the studio?",
+      "lexical": [
+        {
+          "word": "run",
+          "senses": [
+            {
+              "meaning": "move quickly on foot",
+              "synonyms": [
+                "sprint",
+                "jog"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            },
+            {
+              "meaning": "manage or operate",
+              "synonyms": [
+                "manage",
+                "operate",
+                "direct"
+              ],
+              "antonyms": [],
+              "context_hits": [
+                "studio"
+              ]
+            },
+            {
+              "meaning": "execute software",
+              "synonyms": [
+                "execute",
+                "launch"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            }
+          ],
+          "contextual_candidates": [
+            "manage or operate"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "What does runs mean in She runs the studio?",
+        "slots": {
+          "who": null,
+          "what": null,
+          "to_whom_or_object": null,
+          "when": null,
+          "where": "She runs the studio",
+          "why": null,
+          "how": null
+        },
+        "concept": {
+          "actor": null,
+          "action": null,
+          "patient_tokens": []
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "where"
+        ],
+        "unknown_slots": [
+          "who",
+          "what",
+          "to_whom_or_object",
+          "when",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "insufficient",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation."
+        ]
+      },
+      "proof": [],
+      "verified_answer": "manage or operate",
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [],
+          "balances": {},
+          "scope": "No independently verified answer; balances represent observed net transfers, not starting wealth.",
+          "events": [],
+          "unparsed_events": []
+        },
+        "lexical_routing": {
+          "status": "LEXICAL",
+          "answer": "manage or operate",
+          "source": "local_demo_lexicon",
+          "reason": "unique context-cue match; not independently verified"
+        },
+        "answer_origin": "lexical_demo",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 0,
+          "certification_scope": "No independently verified answer; balances represent observed net transfers, not starting wealth."
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:run",
+            "kind": "word",
+            "label": "run"
+          },
+          {
+            "id": "sense:run:0",
+            "kind": "sense",
+            "label": "move quickly on foot",
+            "context_hits": []
+          },
+          {
+            "id": "word:sprint",
+            "kind": "related_word",
+            "label": "sprint"
+          },
+          {
+            "id": "word:jog",
+            "kind": "related_word",
+            "label": "jog"
+          },
+          {
+            "id": "sense:run:1",
+            "kind": "sense",
+            "label": "manage or operate",
+            "context_hits": [
+              "studio"
+            ]
+          },
+          {
+            "id": "word:manage",
+            "kind": "related_word",
+            "label": "manage"
+          },
+          {
+            "id": "word:operate",
+            "kind": "related_word",
+            "label": "operate"
+          },
+          {
+            "id": "word:direct",
+            "kind": "related_word",
+            "label": "direct"
+          },
+          {
+            "id": "sense:run:2",
+            "kind": "sense",
+            "label": "execute software",
+            "context_hits": []
+          },
+          {
+            "id": "word:execute",
+            "kind": "related_word",
+            "label": "execute"
+          },
+          {
+            "id": "word:launch",
+            "kind": "related_word",
+            "label": "launch"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:run",
+            "to": "sense:run:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:run:0",
+            "to": "word:sprint",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:0",
+            "to": "word:jog",
+            "relation": "synonym"
+          },
+          {
+            "from": "word:run",
+            "to": "sense:run:1",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:run:1",
+            "to": "word:manage",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:1",
+            "to": "word:operate",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:1",
+            "to": "word:direct",
+            "relation": "synonym"
+          },
+          {
+            "from": "word:run",
+            "to": "sense:run:2",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:run:2",
+            "to": "word:execute",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:2",
+            "to": "word:launch",
+            "relation": "synonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "What does charge mean when charging a phone battery?",
+    "source": "nova",
+    "state": "LEXICAL",
+    "answer": "replenish electrical energy",
+    "package": {
+      "state": "LEXICAL",
+      "original_question": "What does charge mean when charging a phone battery?",
+      "lexical": [
+        {
+          "word": "charge",
+          "senses": [
+            {
+              "meaning": "ask for payment",
+              "synonyms": [
+                "bill",
+                "invoice"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            },
+            {
+              "meaning": "replenish electrical energy",
+              "synonyms": [
+                "recharge",
+                "power"
+              ],
+              "antonyms": [],
+              "context_hits": [
+                "battery",
+                "phone"
+              ]
+            },
+            {
+              "meaning": "formally accuse",
+              "synonyms": [
+                "accuse",
+                "indict"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            }
+          ],
+          "contextual_candidates": [
+            "replenish electrical energy"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "What does charge mean when charging a phone battery?",
+        "slots": {
+          "who": null,
+          "what": null,
+          "to_whom_or_object": null,
+          "when": null,
+          "where": null,
+          "why": null,
+          "how": null
+        },
+        "concept": {
+          "actor": null,
+          "action": null,
+          "patient_tokens": []
+        },
+        "polarity": "positive",
+        "known_slots": [],
+        "unknown_slots": [
+          "who",
+          "what",
+          "to_whom_or_object",
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "insufficient",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation."
+        ]
+      },
+      "proof": [],
+      "verified_answer": "replenish electrical energy",
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [],
+          "balances": {},
+          "scope": "No independently verified answer; balances represent observed net transfers, not starting wealth.",
+          "events": [],
+          "unparsed_events": []
+        },
+        "lexical_routing": {
+          "status": "LEXICAL",
+          "answer": "replenish electrical energy",
+          "source": "local_demo_lexicon",
+          "reason": "unique context-cue match; not independently verified"
+        },
+        "answer_origin": "lexical_demo",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 0,
+          "certification_scope": "No independently verified answer; balances represent observed net transfers, not starting wealth."
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:charge",
+            "kind": "word",
+            "label": "charge"
+          },
+          {
+            "id": "sense:charge:0",
+            "kind": "sense",
+            "label": "ask for payment",
+            "context_hits": []
+          },
+          {
+            "id": "word:bill",
+            "kind": "related_word",
+            "label": "bill"
+          },
+          {
+            "id": "word:invoice",
+            "kind": "related_word",
+            "label": "invoice"
+          },
+          {
+            "id": "sense:charge:1",
+            "kind": "sense",
+            "label": "replenish electrical energy",
+            "context_hits": [
+              "battery",
+              "phone"
+            ]
+          },
+          {
+            "id": "word:recharge",
+            "kind": "related_word",
+            "label": "recharge"
+          },
+          {
+            "id": "word:power",
+            "kind": "related_word",
+            "label": "power"
+          },
+          {
+            "id": "sense:charge:2",
+            "kind": "sense",
+            "label": "formally accuse",
+            "context_hits": []
+          },
+          {
+            "id": "word:accuse",
+            "kind": "related_word",
+            "label": "accuse"
+          },
+          {
+            "id": "word:indict",
+            "kind": "related_word",
+            "label": "indict"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:charge",
+            "to": "sense:charge:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:charge:0",
+            "to": "word:bill",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:charge:0",
+            "to": "word:invoice",
+            "relation": "synonym"
+          },
+          {
+            "from": "word:charge",
+            "to": "sense:charge:1",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:charge:1",
+            "to": "word:recharge",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:charge:1",
+            "to": "word:power",
+            "relation": "synonym"
+          },
+          {
+            "from": "word:charge",
+            "to": "sense:charge:2",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:charge:2",
+            "to": "word:accuse",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:charge:2",
+            "to": "word:indict",
+            "relation": "synonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "Zoe received $120 from Amir. Zoe gave Ivy $90. How much money does Zoe have left from the $120?",
+    "source": "nova",
+    "state": "VERIFIED",
+    "answer": 30.0,
+    "package": {
+      "state": "VERIFIED",
+      "original_question": "Zoe received $120 from Amir. Zoe gave Ivy $90. How much money does Zoe have left from the $120?",
+      "lexical": [
+        {
+          "word": "give",
+          "senses": [
+            {
+              "meaning": "transfer possession from giver to recipient",
+              "synonyms": [
+                "hand",
+                "transfer"
+              ],
+              "antonyms": [
+                "receive"
+              ],
+              "context_hits": [
+                "money"
+              ]
+            }
+          ],
+          "contextual_candidates": [
+            "transfer possession from giver to recipient"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "Zoe received $120 from Amir. Zoe gave Ivy $90. How much money does Zoe have left from the $120?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Amir",
+              "recipient": "Zoe",
+              "amount": "120",
+              "executed": true
+            },
+            {
+              "giver": "Zoe",
+              "recipient": "Ivy",
+              "amount": "90",
+              "executed": true
+            }
+          ]
+        },
+        "concept": {
+          "actor": "zoe",
+          "action": "give",
+          "patient_tokens": [
+            "ivy",
+            "90",
+            "how",
+            "much",
+            "money",
+            "does",
+            "zoe",
+            "have",
+            "left",
+            "from",
+            "the",
+            "120"
+          ]
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Amir transfer 120 to Zoe",
+        "Zoe transfer 90 to Ivy"
+      ],
+      "verified_answer": 30.0,
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "VERIFIED",
+          "answer": 30.0,
+          "proof": [
+            "Amir transfer 120 to Zoe",
+            "Zoe transfer 90 to Ivy"
+          ],
+          "balances": {
+            "Amir": -120.0,
+            "Zoe": 30.0,
+            "Ivy": 90.0
+          },
+          "scope": "scoped transfer arithmetic under limited parser assumptions",
+          "events": [
+            {
+              "giver": "Amir",
+              "recipient": "Zoe",
+              "amount": "120",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 0,
+              "_end": 27
+            },
+            {
+              "giver": "Zoe",
+              "recipient": "Ivy",
+              "amount": "90",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 29,
+              "_end": 45
+            }
+          ],
+          "unparsed_events": []
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 2,
+          "certification_scope": "scoped transfer arithmetic under limited parser assumptions"
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:give",
+            "kind": "word",
+            "label": "give"
+          },
+          {
+            "id": "sense:give:0",
+            "kind": "sense",
+            "label": "transfer possession from giver to recipient",
+            "context_hits": [
+              "money"
+            ]
+          },
+          {
+            "id": "word:hand",
+            "kind": "related_word",
+            "label": "hand"
+          },
+          {
+            "id": "word:transfer",
+            "kind": "related_word",
+            "label": "transfer"
+          },
+          {
+            "id": "word:receive",
+            "kind": "related_word",
+            "label": "receive"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:give",
+            "to": "sense:give:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:hand",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:transfer",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:receive",
+            "relation": "antonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "Eli received $100 from Sam. Eli gave Noah $30. Noah refunded Eli $10. How much money does Eli have left from the $100?",
+    "source": "nova",
+    "state": "VERIFIED",
+    "answer": 80.0,
+    "package": {
+      "state": "VERIFIED",
+      "original_question": "Eli received $100 from Sam. Eli gave Noah $30. Noah refunded Eli $10. How much money does Eli have left from the $100?",
+      "lexical": [
+        {
+          "word": "give",
+          "senses": [
+            {
+              "meaning": "transfer possession from giver to recipient",
+              "synonyms": [
+                "hand",
+                "transfer"
+              ],
+              "antonyms": [
+                "receive"
+              ],
+              "context_hits": [
+                "money"
+              ]
+            }
+          ],
+          "contextual_candidates": [
+            "transfer possession from giver to recipient"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "Eli received $100 from Sam. Eli gave Noah $30. Noah refunded Eli $10. How much money does Eli have left from the $100?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true
+            },
+            {
+              "giver": "Eli",
+              "recipient": "Noah",
+              "amount": "30",
+              "executed": true
+            },
+            {
+              "giver": "Noah",
+              "recipient": "Eli",
+              "amount": "10",
+              "executed": true
+            }
+          ]
+        },
+        "concept": {
+          "actor": "eli",
+          "action": "give",
+          "patient_tokens": [
+            "noah",
+            "30",
+            "noah",
+            "refunded",
+            "eli",
+            "10",
+            "how",
+            "much",
+            "money",
+            "does",
+            "eli",
+            "have",
+            "left",
+            "from",
+            "the",
+            "100"
+          ]
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Sam transfer 100 to Eli",
+        "Eli transfer 30 to Noah",
+        "Noah refund 10 to Eli"
+      ],
+      "verified_answer": 80.0,
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "VERIFIED",
+          "answer": 80.0,
+          "proof": [
+            "Sam transfer 100 to Eli",
+            "Eli transfer 30 to Noah",
+            "Noah refund 10 to Eli"
+          ],
+          "balances": {
+            "Sam": -100.0,
+            "Eli": 80.0,
+            "Noah": 20.0
+          },
+          "scope": "scoped transfer arithmetic under limited parser assumptions",
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 0,
+              "_end": 26
+            },
+            {
+              "giver": "Eli",
+              "recipient": "Noah",
+              "amount": "30",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 28,
+              "_end": 45
+            },
+            {
+              "giver": "Noah",
+              "recipient": "Eli",
+              "amount": "10",
+              "executed": true,
+              "kind": "refund",
+              "_position": 47,
+              "_end": 68
+            }
+          ],
+          "unparsed_events": []
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 3,
+          "certification_scope": "scoped transfer arithmetic under limited parser assumptions"
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:give",
+            "kind": "word",
+            "label": "give"
+          },
+          {
+            "id": "sense:give:0",
+            "kind": "sense",
+            "label": "transfer possession from giver to recipient",
+            "context_hits": [
+              "money"
+            ]
+          },
+          {
+            "id": "word:hand",
+            "kind": "related_word",
+            "label": "hand"
+          },
+          {
+            "id": "word:transfer",
+            "kind": "related_word",
+            "label": "transfer"
+          },
+          {
+            "id": "word:receive",
+            "kind": "related_word",
+            "label": "receive"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:give",
+            "to": "sense:give:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:hand",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:transfer",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:receive",
+            "relation": "antonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "Eli received $100 from Sam. Eli earned $20. How much money does Eli have left from the $100?",
+    "source": "nova",
+    "state": "UNSUPPORTED",
+    "answer": null,
+    "package": {
+      "state": "UNSUPPORTED",
+      "original_question": "Eli received $100 from Sam. Eli earned $20. How much money does Eli have left from the $100?",
+      "lexical": [],
+      "concepts": {
+        "original": "Eli received $100 from Sam. Eli earned $20. How much money does Eli have left from the $100?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true
+            }
+          ]
+        },
+        "concept": {
+          "actor": "have",
+          "action": "leave",
+          "patient_tokens": [
+            "from",
+            "the",
+            "100"
+          ]
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Sam transfer 100 to Eli"
+      ],
+      "verified_answer": null,
+      "warning": "NOVA has no verified result; this does NOT imply the question is unanswerable.",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [
+            "Sam transfer 100 to Eli"
+          ],
+          "unparsed_events": [
+            {
+              "term": "unparsed_action",
+              "text": "earned",
+              "span": [
+                32,
+                38
+              ]
+            },
+            {
+              "term": "unmatched_amount",
+              "span": [
+                39,
+                42
+              ],
+              "text": "$20"
+            }
+          ],
+          "events": [
+            {
+              "giver": "Sam",
+              "recipient": "Eli",
+              "amount": "100",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 0,
+              "_end": 26
+            }
+          ],
+          "balances": {
+            "Sam": -100.0,
+            "Eli": 100.0
+          },
+          "scope": "Unparsed financial actions may affect the requested balance; no certified answer."
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger",
+        "coverage": {
+          "unparsed_events": [
+            {
+              "term": "unparsed_action",
+              "text": "earned",
+              "span": [
+                32,
+                38
+              ]
+            },
+            {
+              "term": "unmatched_amount",
+              "span": [
+                39,
+                42
+              ],
+              "text": "$20"
+            }
+          ],
+          "parsed_event_count": 1,
+          "certification_scope": "Unparsed financial actions may affect the requested balance; no certified answer."
+        }
+      },
+      "semantic_graph": {
+        "nodes": [],
+        "edges": [],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "Kai received $100 from Ava. Kai did not give Mia $40. How much money does Kai have left from the $100?",
+    "source": "nova",
+    "state": "VERIFIED",
+    "answer": 100.0,
+    "package": {
+      "state": "VERIFIED",
+      "original_question": "Kai received $100 from Ava. Kai did not give Mia $40. How much money does Kai have left from the $100?",
+      "lexical": [
+        {
+          "word": "give",
+          "senses": [
+            {
+              "meaning": "transfer possession from giver to recipient",
+              "synonyms": [
+                "hand",
+                "transfer"
+              ],
+              "antonyms": [
+                "receive"
+              ],
+              "context_hits": [
+                "money"
+              ]
+            }
+          ],
+          "contextual_candidates": [
+            "transfer possession from giver to recipient"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "Kai received $100 from Ava. Kai did not give Mia $40. How much money does Kai have left from the $100?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Ava",
+              "recipient": "Kai",
+              "amount": "100",
+              "executed": true
+            },
+            {
+              "giver": "Kai",
+              "recipient": "Mia",
+              "amount": "40",
+              "executed": false
+            }
+          ]
+        },
+        "concept": {
+          "actor": "not",
+          "action": "give",
+          "patient_tokens": [
+            "mia",
+            "40",
+            "how",
+            "much",
+            "money",
+            "does",
+            "kai",
+            "have",
+            "left",
+            "from",
+            "the",
+            "100"
+          ]
+        },
+        "polarity": "negative",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Negation detected lexically; scope unverified.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Ava transfer 100 to Kai",
+        "Negated transfer: no movement"
+      ],
+      "verified_answer": 100.0,
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "VERIFIED",
+          "answer": 100.0,
+          "proof": [
+            "Ava transfer 100 to Kai",
+            "Negated transfer: no movement"
+          ],
+          "balances": {
+            "Ava": -100.0,
+            "Kai": 100.0
+          },
+          "scope": "scoped transfer arithmetic under limited parser assumptions",
+          "events": [
+            {
+              "giver": "Ava",
+              "recipient": "Kai",
+              "amount": "100",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 0,
+              "_end": 26
+            },
+            {
+              "giver": "Kai",
+              "recipient": "Mia",
+              "amount": "40",
+              "executed": false,
+              "kind": "transfer",
+              "_position": 28,
+              "_end": 52
+            }
+          ],
+          "unparsed_events": []
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 2,
+          "certification_scope": "scoped transfer arithmetic under limited parser assumptions"
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:give",
+            "kind": "word",
+            "label": "give"
+          },
+          {
+            "id": "sense:give:0",
+            "kind": "sense",
+            "label": "transfer possession from giver to recipient",
+            "context_hits": [
+              "money"
+            ]
+          },
+          {
+            "id": "word:hand",
+            "kind": "related_word",
+            "label": "hand"
+          },
+          {
+            "id": "word:transfer",
+            "kind": "related_word",
+            "label": "transfer"
+          },
+          {
+            "id": "word:receive",
+            "kind": "related_word",
+            "label": "receive"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:give",
+            "to": "sense:give:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:hand",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:transfer",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:receive",
+            "relation": "antonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "Mira received $60 from Ava. Mira gave Mira $20. Mira gave Bo $15. How much money does Mira have left from the $60?",
+    "source": "nova",
+    "state": "VERIFIED",
+    "answer": 45.0,
+    "package": {
+      "state": "VERIFIED",
+      "original_question": "Mira received $60 from Ava. Mira gave Mira $20. Mira gave Bo $15. How much money does Mira have left from the $60?",
+      "lexical": [
+        {
+          "word": "give",
+          "senses": [
+            {
+              "meaning": "transfer possession from giver to recipient",
+              "synonyms": [
+                "hand",
+                "transfer"
+              ],
+              "antonyms": [
+                "receive"
+              ],
+              "context_hits": [
+                "money"
+              ]
+            }
+          ],
+          "contextual_candidates": [
+            "transfer possession from giver to recipient"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "concepts": {
+        "original": "Mira received $60 from Ava. Mira gave Mira $20. Mira gave Bo $15. How much money does Mira have left from the $60?",
+        "slots": {
+          "events": [
+            {
+              "giver": "Ava",
+              "recipient": "Mira",
+              "amount": "60",
+              "executed": true
+            },
+            {
+              "giver": "Mira",
+              "recipient": "Mira",
+              "amount": "20",
+              "executed": true
+            },
+            {
+              "giver": "Mira",
+              "recipient": "Bo",
+              "amount": "15",
+              "executed": true
+            }
+          ]
+        },
+        "concept": {
+          "actor": "mira",
+          "action": "give",
+          "patient_tokens": [
+            "mira",
+            "20",
+            "mira",
+            "gave",
+            "bo",
+            "15",
+            "how",
+            "much",
+            "money",
+            "does",
+            "mira",
+            "have",
+            "left",
+            "from",
+            "the",
+            "60"
+          ]
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "who",
+          "what",
+          "to_whom_or_object"
+        ],
+        "unknown_slots": [
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "event_parser_partial",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation.",
+          "Event parser is limited; unmatched clauses may remain."
+        ]
+      },
+      "proof": [
+        "Ava transfer 60 to Mira",
+        "Mira transfer 20 to Mira",
+        "Mira transfer 15 to Bo"
+      ],
+      "verified_answer": 45.0,
+      "warning": "",
+      "trace": {
+        "ledger": {
+          "status": "VERIFIED",
+          "answer": 45.0,
+          "proof": [
+            "Ava transfer 60 to Mira",
+            "Mira transfer 20 to Mira",
+            "Mira transfer 15 to Bo"
+          ],
+          "balances": {
+            "Ava": -60.0,
+            "Mira": 45.0,
+            "Bo": 15.0
+          },
+          "scope": "scoped transfer arithmetic under limited parser assumptions",
+          "events": [
+            {
+              "giver": "Ava",
+              "recipient": "Mira",
+              "amount": "60",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 0,
+              "_end": 26
+            },
+            {
+              "giver": "Mira",
+              "recipient": "Mira",
+              "amount": "20",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 28,
+              "_end": 46
+            },
+            {
+              "giver": "Mira",
+              "recipient": "Bo",
+              "amount": "15",
+              "executed": true,
+              "kind": "transfer",
+              "_position": 48,
+              "_end": 64
+            }
+          ],
+          "unparsed_events": []
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 3,
+          "certification_scope": "scoped transfer arithmetic under limited parser assumptions"
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:give",
+            "kind": "word",
+            "label": "give"
+          },
+          {
+            "id": "sense:give:0",
+            "kind": "sense",
+            "label": "transfer possession from giver to recipient",
+            "context_hits": [
+              "money"
+            ]
+          },
+          {
+            "id": "word:hand",
+            "kind": "related_word",
+            "label": "hand"
+          },
+          {
+            "id": "word:transfer",
+            "kind": "related_word",
+            "label": "transfer"
+          },
+          {
+            "id": "word:receive",
+            "kind": "related_word",
+            "label": "receive"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:give",
+            "to": "sense:give:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:hand",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:transfer",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:give:0",
+            "to": "word:receive",
+            "relation": "antonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "What is the capital of France?",
+    "source": "nova",
+    "state": "UNSUPPORTED",
+    "answer": null,
+    "package": {
+      "state": "UNSUPPORTED",
+      "original_question": "What is the capital of France?",
+      "lexical": [],
+      "concepts": {
+        "original": "What is the capital of France?",
+        "slots": {
+          "who": null,
+          "what": null,
+          "to_whom_or_object": null,
+          "when": null,
+          "where": null,
+          "why": null,
+          "how": null
+        },
+        "concept": {
+          "actor": null,
+          "action": null,
+          "patient_tokens": []
+        },
+        "polarity": "positive",
+        "known_slots": [],
+        "unknown_slots": [
+          "who",
+          "what",
+          "to_whom_or_object",
+          "when",
+          "where",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "insufficient",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation."
+        ]
+      },
+      "proof": [],
+      "verified_answer": null,
+      "warning": "NOVA has no verified result; this does NOT imply the question is unanswerable.",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [],
+          "balances": {},
+          "scope": "No independently verified answer; balances represent observed net transfers, not starting wealth.",
+          "events": [],
+          "unparsed_events": []
+        },
+        "lexical_routing": null,
+        "answer_origin": "ledger",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 0,
+          "certification_scope": "No independently verified answer; balances represent observed net transfers, not starting wealth."
+        }
+      },
+      "semantic_graph": {
+        "nodes": [],
+        "edges": [],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  },
+  {
+    "question": "What does run mean in They run it?",
+    "source": "nova",
+    "state": "AMBIGUOUS",
+    "answer": null,
+    "package": {
+      "state": "AMBIGUOUS",
+      "original_question": "What does run mean in They run it?",
+      "lexical": [
+        {
+          "word": "run",
+          "senses": [
+            {
+              "meaning": "move quickly on foot",
+              "synonyms": [
+                "sprint",
+                "jog"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            },
+            {
+              "meaning": "manage or operate",
+              "synonyms": [
+                "manage",
+                "operate",
+                "direct"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            },
+            {
+              "meaning": "execute software",
+              "synonyms": [
+                "execute",
+                "launch"
+              ],
+              "antonyms": [],
+              "context_hits": []
+            }
+          ],
+          "contextual_candidates": [],
+          "ambiguous": true
+        }
+      ],
+      "concepts": {
+        "original": "What does run mean in They run it?",
+        "slots": {
+          "who": null,
+          "what": null,
+          "to_whom_or_object": null,
+          "when": null,
+          "where": "They run it",
+          "why": null,
+          "how": null
+        },
+        "concept": {
+          "actor": null,
+          "action": null,
+          "patient_tokens": []
+        },
+        "polarity": "positive",
+        "known_slots": [
+          "where"
+        ],
+        "unknown_slots": [
+          "who",
+          "what",
+          "to_whom_or_object",
+          "when",
+          "why",
+          "how"
+        ],
+        "interpretation_status": "insufficient",
+        "warnings": [
+          "Heuristic extraction; roles, word senses and causal links require independent validation."
+        ]
+      },
+      "proof": [],
+      "verified_answer": null,
+      "warning": "NOVA has no verified result; this does NOT imply the question is unanswerable.",
+      "trace": {
+        "ledger": {
+          "status": "UNSUPPORTED",
+          "answer": null,
+          "proof": [],
+          "balances": {},
+          "scope": "No independently verified answer; balances represent observed net transfers, not starting wealth.",
+          "events": [],
+          "unparsed_events": []
+        },
+        "lexical_routing": {
+          "status": "AMBIGUOUS",
+          "answer": null,
+          "source": "local_demo_lexicon",
+          "reason": "multiple senses without a resolved context"
+        },
+        "answer_origin": "lexical_demo",
+        "coverage": {
+          "unparsed_events": [],
+          "parsed_event_count": 0,
+          "certification_scope": "No independently verified answer; balances represent observed net transfers, not starting wealth."
+        }
+      },
+      "semantic_graph": {
+        "nodes": [
+          {
+            "id": "word:run",
+            "kind": "word",
+            "label": "run"
+          },
+          {
+            "id": "sense:run:0",
+            "kind": "sense",
+            "label": "move quickly on foot",
+            "context_hits": []
+          },
+          {
+            "id": "word:sprint",
+            "kind": "related_word",
+            "label": "sprint"
+          },
+          {
+            "id": "word:jog",
+            "kind": "related_word",
+            "label": "jog"
+          },
+          {
+            "id": "sense:run:1",
+            "kind": "sense",
+            "label": "manage or operate",
+            "context_hits": []
+          },
+          {
+            "id": "word:manage",
+            "kind": "related_word",
+            "label": "manage"
+          },
+          {
+            "id": "word:operate",
+            "kind": "related_word",
+            "label": "operate"
+          },
+          {
+            "id": "word:direct",
+            "kind": "related_word",
+            "label": "direct"
+          },
+          {
+            "id": "sense:run:2",
+            "kind": "sense",
+            "label": "execute software",
+            "context_hits": []
+          },
+          {
+            "id": "word:execute",
+            "kind": "related_word",
+            "label": "execute"
+          },
+          {
+            "id": "word:launch",
+            "kind": "related_word",
+            "label": "launch"
+          }
+        ],
+        "edges": [
+          {
+            "from": "word:run",
+            "to": "sense:run:0",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:run:0",
+            "to": "word:sprint",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:0",
+            "to": "word:jog",
+            "relation": "synonym"
+          },
+          {
+            "from": "word:run",
+            "to": "sense:run:1",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:run:1",
+            "to": "word:manage",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:1",
+            "to": "word:operate",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:1",
+            "to": "word:direct",
+            "relation": "synonym"
+          },
+          {
+            "from": "word:run",
+            "to": "sense:run:2",
+            "relation": "has_sense"
+          },
+          {
+            "from": "sense:run:2",
+            "to": "word:execute",
+            "relation": "synonym"
+          },
+          {
+            "from": "sense:run:2",
+            "to": "word:launch",
+            "relation": "synonym"
+          }
+        ],
+        "note": "Relationships are lexical candidates, not evidence that a sense is true in context."
+      }
+    }
+  }
+]
