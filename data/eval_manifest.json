@@ -1,0 +1,39 @@
+{
+  "eval_seed": 20261027,
+  "holdout_seed": 20261028,
+  "eval_file": "data/eval_uplift.jsonl",
+  "eval_sha256": "84c8bf249690f6dfb37048afda9f41d8540c839680cd4b903c9b0c9f86498082",
+  "eval_count": 250,
+  "holdout_file": "data/eval_uplift_holdout.jsonl",
+  "holdout_sha256": "41fd77a8fdd1c799aa7352d84e5b1fe49ca4b50ee7ccb43c1b8285780e44b599",
+  "holdout_count": 100,
+  "holdout_status": "UNTOUCHED \u2014 do not run without --final",
+  "counts": {
+    "money": 60,
+    "calculator": 20,
+    "symbolic": 30,
+    "synonym": 20,
+    "antonym": 15,
+    "negation": 20,
+    "multi_step": 20,
+    "ambiguous": 10,
+    "hard_negative": 15,
+    "dictionary": 20,
+    "encyclopedia": 10,
+    "knowledge_combo": 10
+  },
+  "holdout_counts": {
+    "money": 24,
+    "calculator": 8,
+    "symbolic": 12,
+    "synonym": 8,
+    "antonym": 6,
+    "negation": 8,
+    "multi_step": 8,
+    "ambiguous": 4,
+    "hard_negative": 6,
+    "dictionary": 8,
+    "encyclopedia": 4,
+    "knowledge_combo": 4
+  }
+}

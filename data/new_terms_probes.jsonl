@@ -1,0 +1,60 @@
+{"id": "nt-d01", "category": "dictionary", "text": "What does 'tenner' mean?", "keywords": ["bill", "10 dollars"]}
+{"id": "nt-d02", "category": "dictionary", "text": "What does 'fiver' mean?", "keywords": ["bill", "5 dollars"]}
+{"id": "nt-d03", "category": "dictionary", "text": "What does 'buck' mean?", "keywords": ["paper money", "one dollar"]}
+{"id": "nt-d04", "category": "dictionary", "text": "What does 'dozen' mean?", "keywords": ["cardinal", "number"]}
+{"id": "nt-d05", "category": "dictionary", "text": "What does 'grand' mean?", "keywords": ["thousand", "currency"]}
+{"id": "nt-d06", "category": "dictionary", "text": "What does 'quid' mean?", "keywords": ["Pound", "currency"]}
+{"id": "nt-d07", "category": "dictionary", "text": "What does 'bicycle' mean?", "keywords": ["wheeled", "vehicle", "two wheels"]}
+{"id": "nt-d08", "category": "dictionary", "text": "What does 'automobile' mean?", "keywords": ["motor vehicle", "four wheels"]}
+{"id": "nt-d09", "category": "dictionary", "text": "What does 'car' mean?", "keywords": ["motor vehicle", "four wheels"]}
+{"id": "nt-d10", "category": "dictionary", "text": "What does 'spider' mean?", "keywords": ["arachnid", "eight legs"]}
+{"id": "nt-d11", "category": "dictionary", "text": "What does 'octagon' mean?", "keywords": ["eight-sided", "polygon"]}
+{"id": "nt-d12", "category": "dictionary", "text": "What does 'hexagon' mean?", "keywords": ["six-sided", "polygon"]}
+{"id": "nt-d13", "category": "dictionary", "text": "What does 'triangle' mean?", "keywords": ["three-sided", "polygon"]}
+{"id": "nt-d14", "category": "dictionary", "text": "What does 'pentagon' mean?", "keywords": ["five", "sides"]}
+{"id": "nt-d15", "category": "dictionary", "text": "What does 'bank' mean?", "keywords": ["sloping", "land"]}
+{"id": "nt-d16", "category": "dictionary", "text": "What does 'bat' mean?", "keywords": ["nocturnal", "mammal"]}
+{"id": "nt-d17", "category": "dictionary", "text": "What does 'book' mean?", "keywords": ["written", "work"]}
+{"id": "nt-d18", "category": "dictionary", "text": "What does 'give' mean?", "keywords": ["cause", "have"]}
+{"id": "nt-d19", "category": "dictionary", "text": "What does 'sell' mean?", "keywords": ["exchange", "money"]}
+{"id": "nt-d20", "category": "dictionary", "text": "What does 'buy' mean?", "keywords": ["obtain", "purchase"]}
+{"id": "nt-d21", "category": "dictionary", "text": "What does 'receive' mean?", "keywords": ["possession"]}
+{"id": "nt-d22", "category": "dictionary", "text": "What does 'send' mean?", "keywords": ["cause", "go"]}
+{"id": "nt-d23", "category": "dictionary", "text": "What does 'pay' mean?", "keywords": ["give", "money"]}
+{"id": "nt-d24", "category": "dictionary", "text": "What does 'lend' mean?", "keywords": ["bestow", "quality"]}
+{"id": "nt-d25", "category": "dictionary", "text": "What does 'borrow' mean?", "keywords": ["temporarily"]}
+{"id": "nt-d26", "category": "dictionary", "text": "What does 'donate' mean?", "keywords": ["charity"]}
+{"id": "nt-d27", "category": "dictionary", "text": "What does 'deposit' mean?", "keywords": ["money", "bank"]}
+{"id": "nt-d28", "category": "dictionary", "text": "What does 'price' mean?", "keywords": ["amount", "money"]}
+{"id": "nt-d29", "category": "dictionary", "text": "What does 'dollar' mean?", "keywords": ["paper money", "one dollar"]}
+{"id": "nt-d30", "category": "dictionary", "text": "What does 'cent' mean?", "keywords": ["fractional", "monetary", "unit"]}
+{"id": "nt-w01", "category": "disambiguation", "term": "bank", "context": "he sat on the bank of the river and watched the currents", "keywords": ["river", "watercourse"]}
+{"id": "nt-w02", "category": "disambiguation", "term": "bank", "context": "he cashed a check at the bank and deposited money", "keywords": ["financial", "institution"]}
+{"id": "nt-w03", "category": "disambiguation", "term": "tenner", "context": "John handed Sarah a tenner", "keywords": ["bill", "10 dollars"]}
+{"id": "nt-w04", "category": "disambiguation", "term": "buck", "context": "he paid three bucks for the coffee", "keywords": ["paper money", "one dollar"]}
+{"id": "nt-w05", "category": "disambiguation", "term": "bat", "context": "the bat flew out of the cave at night", "keywords": ["nocturnal", "mammal"]}
+{"id": "nt-w06", "category": "disambiguation", "term": "bat", "context": "he swung the bat and hit a home run", "keywords": ["club"]}
+{"id": "nt-w07", "category": "disambiguation", "term": "spring", "context": "the spring in the meadow bubbled up with clear water", "keywords": ["ground water"]}
+{"id": "nt-w08", "category": "disambiguation", "term": "spring", "context": "the spring in the mattress had lost its bounce", "keywords": ["metal", "elastic"]}
+{"id": "nt-w09", "category": "disambiguation", "term": "light", "context": "the light in the room was too dim to read by", "keywords": ["electromagnetic", "radiation"]}
+{"id": "nt-w10", "category": "disambiguation", "term": "right", "context": "turn right at the corner and keep going", "keywords": ["turn", "side"]}
+{"id": "nt-e01", "category": "encyclopedia", "text": "How many sides does an octagon have?", "keywords": ["8"]}
+{"id": "nt-e02", "category": "encyclopedia", "text": "How many sides does a hexagon have?", "keywords": ["6"]}
+{"id": "nt-e03", "category": "encyclopedia", "text": "How many sides does a triangle have?", "keywords": ["3"]}
+{"id": "nt-e04", "category": "encyclopedia", "text": "How many sides does a square have?", "keywords": ["4"]}
+{"id": "nt-e05", "category": "encyclopedia", "text": "How many sides does a pentagon have?", "keywords": ["5"]}
+{"id": "nt-e06", "category": "encyclopedia", "text": "How many legs does a spider have?", "keywords": ["8"]}
+{"id": "nt-e07", "category": "encyclopedia", "text": "How many wheels does a bicycle have?", "keywords": ["2"]}
+{"id": "nt-e08", "category": "encyclopedia", "text": "How many wheels does a car have?", "keywords": ["4"]}
+{"id": "nt-e09", "category": "encyclopedia", "text": "How many days are in a week?", "keywords": ["7"]}
+{"id": "nt-e10", "category": "encyclopedia", "text": "How many seconds are in a minute?", "keywords": ["60"]}
+{"id": "nt-e11", "category": "encyclopedia", "text": "How many minutes are in an hour?", "keywords": ["60"]}
+{"id": "nt-e12", "category": "encyclopedia", "text": "What is a bicycle?", "keywords": ["wheeled", "vehicle", "two wheels"]}
+{"id": "nt-e13", "category": "encyclopedia", "text": "What is an automobile?", "keywords": ["motor vehicle", "four wheels"]}
+{"id": "nt-e14", "category": "encyclopedia", "text": "What is a spider?", "keywords": ["arachnid", "eight legs"]}
+{"id": "nt-e15", "category": "encyclopedia", "text": "What is the Pacific Ocean?", "keywords": ["largest", "ocean"]}
+{"id": "nt-e16", "category": "encyclopedia", "text": "What is a bank?", "keywords": ["sloping", "land"]}
+{"id": "nt-e17", "category": "encyclopedia", "text": "What is a book?", "keywords": ["written", "work"]}
+{"id": "nt-e18", "category": "encyclopedia", "text": "What is a dozen?", "keywords": ["cardinal", "number"]}
+{"id": "nt-e19", "category": "encyclopedia", "text": "What is a century?", "keywords": ["100", "years"]}
+{"id": "nt-e20", "category": "encyclopedia", "text": "What is the boiling point of water?", "keywords": ["temperature", "boils"]}

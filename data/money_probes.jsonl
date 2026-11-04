@@ -1,0 +1,100 @@
+{"id": 1, "type": "scoped2", "story": "Marcus gave John $20. John gave Sarah $10.", "question": "How much money does John have left from the $20?", "expected": 10}
+{"id": 2, "type": "multi_inflow", "story": "John gave $60 to David. David received $10 from Elena. David gave Marcus $5.", "question": "How much money does David have?", "expected": 65}
+{"id": 3, "type": "distractor", "story": "Elena received $10 from Tom. Elena gave $10 to Marcus. Tom received $25 from John.", "question": "How much money does Elena have left from the $10?", "expected": 0}
+{"id": 4, "type": "multi_inflow", "story": "Elena gave $100 to Tom. Maya gave $40 to Tom. Tom gave $25 to Sarah.", "question": "How much money is left from the $100 Elena gave Tom?", "expected": 75}
+{"id": 5, "type": "multi_inflow", "story": "Elena gave John $30. Maya gave $80 to John. John gave $5 to Sarah.", "question": "How much money is left from the $30 Elena gave John?", "expected": 25}
+{"id": 6, "type": "multi_inflow", "story": "Alicia received $100 from Priya. Sarah gave $25 to Alicia. Alicia gave David $60.", "question": "How much money does Alicia have?", "expected": 65}
+{"id": 7, "type": "total2", "story": "Priya gave $20 to Tom. Chris received $15 from Tom.", "question": "How much money does Tom have?", "expected": 5}
+{"id": 8, "type": "distractor", "story": "Sarah received $10 from Priya. Sarah gave $5 to David. Priya received $40 from Alicia.", "question": "How much money does Sarah have left from the $10?", "expected": 5}
+{"id": 9, "type": "total2", "story": "Tom gave $75 to Sarah. Sarah gave Elena $50.", "question": "How much money does Sarah have?", "expected": 25}
+{"id": 10, "type": "total2", "story": "Tom received $15 from Maya. Alicia received $10 from Tom.", "question": "How much money does Tom have?", "expected": 5}
+{"id": 11, "type": "scoped2", "story": "Priya gave $100 to Sarah. Chris received $30 from Sarah.", "question": "How much money does Sarah have left from the $100?", "expected": 70}
+{"id": 12, "type": "scoped2", "story": "Chris received $10 from Elena. David received $5 from Chris.", "question": "How much money does Chris have left from the $10?", "expected": 5}
+{"id": 13, "type": "total2", "story": "David received $100 from Maya. David gave John $50.", "question": "How much money does David have?", "expected": 50}
+{"id": 14, "type": "scoped2", "story": "Sarah gave Tom $10. Tom gave $5 to Marcus.", "question": "How much money does Tom have left from the $10?", "expected": 5}
+{"id": 15, "type": "distractor", "story": "Alicia gave $20 to Priya. Priya gave Marcus $15. Tom gave Alicia $75.", "question": "How much money does Priya have left from the $20?", "expected": 5}
+{"id": 16, "type": "total2", "story": "Chris gave Marcus $20. Marcus gave $5 to Alicia.", "question": "How much money does Marcus have?", "expected": 15}
+{"id": 17, "type": "chain3", "story": "Maya gave $10 to Elena. Elena gave $5 to Sarah. Sarah gave $5 to Tom.", "question": "How much money does Sarah have?", "expected": 0}
+{"id": 18, "type": "chain3", "story": "John gave $20 to Priya. Elena received $20 from Priya. Elena gave $20 to Tom.", "question": "How much money does Priya have?", "expected": 0}
+{"id": 19, "type": "scoped2", "story": "Sarah received $80 from Maya. Sarah gave Marcus $10.", "question": "How much money does Sarah have left from the $80?", "expected": 70}
+{"id": 20, "type": "distractor", "story": "John received $75 from Chris. John gave $5 to Priya. Marcus gave Chris $15.", "question": "How much money does John have left from the $75?", "expected": 70}
+{"id": 21, "type": "scoped2", "story": "Marcus received $80 from Tom. Marcus gave $30 to Sarah.", "question": "How much money does Marcus have left from the $80?", "expected": 50}
+{"id": 22, "type": "chain3", "story": "Chris gave Elena $100. Elena gave $75 to John. John gave $30 to Alicia.", "question": "How much money does Elena have?", "expected": 25}
+{"id": 23, "type": "distractor", "story": "Tom received $50 from Alicia. Priya received $15 from Tom. Elena gave $40 to Alicia.", "question": "How much money does Tom have left from the $50?", "expected": 35}
+{"id": 24, "type": "multi_inflow", "story": "Alicia received $10 from Chris. Alicia received $50 from David. Alicia gave Sarah $5.", "question": "How much money is left from the $10 Chris gave Alicia?", "expected": 5}
+{"id": 25, "type": "multi_inflow", "story": "Alicia gave $80 to David. Sarah gave $75 to David. David gave John $40.", "question": "How much money does David have?", "expected": 115}
+{"id": 26, "type": "scoped2", "story": "Chris received $5 from David. Chris gave $5 to Sarah.", "question": "How much money does Chris have left from the $5?", "expected": 0}
+{"id": 27, "type": "total2", "story": "Elena gave Marcus $50. Sarah received $40 from Marcus.", "question": "How much money does Marcus have?", "expected": 10}
+{"id": 28, "type": "multi_inflow", "story": "Elena received $60 from Maya. John gave Elena $75. Elena gave $60 to Sarah.", "question": "How much money does Elena have?", "expected": 75}
+{"id": 29, "type": "multi_inflow", "story": "Chris gave John $30. Marcus gave John $50. John gave $20 to Elena.", "question": "How much money does John have?", "expected": 60}
+{"id": 30, "type": "scoped2", "story": "Tom gave Priya $5. Priya gave $5 to Sarah.", "question": "How much money does Priya have left from the $5?", "expected": 0}
+{"id": 31, "type": "distractor", "story": "Priya gave Sarah $100. Sarah gave $75 to David. Tom gave $20 to Priya.", "question": "How much money does Sarah have left from the $100?", "expected": 25}
+{"id": 32, "type": "chain3", "story": "Elena gave $100 to Alicia. Priya received $10 from Alicia. Priya gave $10 to David.", "question": "How much money does Alicia have?", "expected": 90}
+{"id": 33, "type": "chain3", "story": "David gave Elena $60. Sarah received $15 from Elena. Sarah gave $15 to Maya.", "question": "How much money does Elena have?", "expected": 45}
+{"id": 34, "type": "multi_inflow", "story": "David gave John $75. Sarah gave $5 to John. John gave Maya $10.", "question": "How much money is left from the $75 David gave John?", "expected": 65}
+{"id": 35, "type": "scoped2", "story": "Elena gave $10 to Alicia. Alicia gave Priya $10.", "question": "How much money does Alicia have left from the $10?", "expected": 0}
+{"id": 36, "type": "total2", "story": "Priya gave Alicia $25. Elena received $25 from Alicia.", "question": "How much money does Alicia have?", "expected": 0}
+{"id": 37, "type": "chain3", "story": "Elena gave David $50. David gave $25 to Maya. Sarah received $25 from Maya.", "question": "How much money does Maya have?", "expected": 0}
+{"id": 38, "type": "distractor", "story": "Sarah gave $40 to John. John gave Elena $30. Tom gave Sarah $40.", "question": "How much money does John have left from the $40?", "expected": 10}
+{"id": 39, "type": "scoped2", "story": "Maya gave $20 to Marcus. Marcus gave $15 to David.", "question": "How much money does Marcus have left from the $20?", "expected": 5}
+{"id": 40, "type": "chain3", "story": "Alicia gave $5 to David. Tom received $5 from David. Elena received $5 from Tom.", "question": "How much money does Tom have?", "expected": 0}
+{"id": 41, "type": "distractor", "story": "Sarah received $50 from Alicia. Sarah gave Tom $25. Alicia received $5 from John.", "question": "How much money does Sarah have left from the $50?", "expected": 25}
+{"id": 42, "type": "total2", "story": "Marcus gave $100 to Elena. Elena gave $5 to Alicia.", "question": "How much money does Elena have?", "expected": 95}
+{"id": 43, "type": "multi_inflow", "story": "Maya received $60 from Tom. Maya received $5 from Priya. Maya gave Alicia $60.", "question": "How much money does Maya have?", "expected": 5}
+{"id": 44, "type": "scoped2", "story": "Chris gave $75 to Priya. Priya gave Elena $40.", "question": "How much money does Priya have left from the $75?", "expected": 35}
+{"id": 45, "type": "total2", "story": "Priya received $25 from John. Priya gave David $5.", "question": "How much money does Priya have?", "expected": 20}
+{"id": 46, "type": "chain3", "story": "Alicia received $25 from Maya. Chris received $5 from Alicia. Chris gave $5 to Sarah.", "question": "How much money does Alicia have?", "expected": 20}
+{"id": 47, "type": "scoped2", "story": "Tom gave $60 to Sarah. Sarah gave $30 to John.", "question": "How much money does Sarah have left from the $60?", "expected": 30}
+{"id": 48, "type": "scoped2", "story": "John received $40 from Sarah. Tom received $5 from John.", "question": "How much money does John have left from the $40?", "expected": 35}
+{"id": 49, "type": "chain3", "story": "Marcus gave $15 to Maya. Maya gave $10 to Priya. Priya gave Sarah $10.", "question": "How much money does Maya have?", "expected": 5}
+{"id": 50, "type": "distractor", "story": "Tom received $5 from Priya. Tom gave $5 to John. Sarah gave $20 to Priya.", "question": "How much money does Tom have left from the $5?", "expected": 0}
+{"id": 51, "type": "chain3", "story": "David received $75 from Alicia. David gave $15 to Maya. Maya gave $5 to Tom.", "question": "How much money does David have?", "expected": 60}
+{"id": 52, "type": "total2", "story": "John gave David $5. David gave $5 to Chris.", "question": "How much money does David have?", "expected": 0}
+{"id": 53, "type": "distractor", "story": "Tom received $30 from Priya. Tom gave $15 to Sarah. Alicia gave $15 to Priya.", "question": "How much money does Tom have left from the $30?", "expected": 15}
+{"id": 54, "type": "total2", "story": "John received $75 from Tom. David received $30 from John.", "question": "How much money does John have?", "expected": 45}
+{"id": 55, "type": "scoped2", "story": "Chris gave $75 to Sarah. Sarah gave $30 to John.", "question": "How much money does Sarah have left from the $75?", "expected": 45}
+{"id": 56, "type": "scoped2", "story": "Priya gave $75 to Chris. Alicia received $40 from Chris.", "question": "How much money does Chris have left from the $75?", "expected": 35}
+{"id": 57, "type": "multi_inflow", "story": "Alicia gave Chris $80. Elena gave Chris $15. Chris gave David $50.", "question": "How much money does Chris have?", "expected": 45}
+{"id": 58, "type": "scoped2", "story": "Maya gave Elena $100. Elena gave $60 to Tom.", "question": "How much money does Elena have left from the $100?", "expected": 40}
+{"id": 59, "type": "scoped2", "story": "Tom gave Maya $75. Maya gave Alicia $75.", "question": "How much money does Maya have left from the $75?", "expected": 0}
+{"id": 60, "type": "chain3", "story": "Elena received $10 from John. Chris received $5 from Elena. Maya received $5 from Chris.", "question": "How much money does Chris have?", "expected": 0}
+{"id": 61, "type": "multi_inflow", "story": "Sarah received $15 from Chris. Sarah received $30 from Tom. Sarah gave $15 to Marcus.", "question": "How much money does Sarah have?", "expected": 30}
+{"id": 62, "type": "multi_inflow", "story": "Tom gave $5 to Elena. Sarah gave Elena $40. Elena gave Alicia $5.", "question": "How much money is left from the $5 Tom gave Elena?", "expected": 0}
+{"id": 63, "type": "scoped2", "story": "Elena gave $40 to Sarah. Sarah gave $5 to David.", "question": "How much money does Sarah have left from the $40?", "expected": 35}
+{"id": 64, "type": "scoped2", "story": "David gave $20 to John. Tom received $20 from John.", "question": "How much money does John have left from the $20?", "expected": 0}
+{"id": 65, "type": "total2", "story": "Chris received $25 from John. Chris gave Priya $10.", "question": "How much money does Chris have?", "expected": 15}
+{"id": 66, "type": "total2", "story": "Tom gave Maya $40. Sarah received $40 from Maya.", "question": "How much money does Maya have?", "expected": 0}
+{"id": 67, "type": "chain3", "story": "Priya gave $25 to Elena. Elena gave $15 to Alicia. Alicia gave $5 to Tom.", "question": "How much money does Elena have?", "expected": 10}
+{"id": 68, "type": "chain3", "story": "Priya gave $5 to Marcus. Marcus gave Elena $5. Elena gave $5 to Sarah.", "question": "How much money does Marcus have?", "expected": 0}
+{"id": 69, "type": "multi_inflow", "story": "Tom gave Maya $25. Elena gave Maya $75. Maya gave Alicia $10.", "question": "How much money does Maya have?", "expected": 90}
+{"id": 70, "type": "total2", "story": "Sarah gave John $80. John gave Chris $25.", "question": "How much money does John have?", "expected": 55}
+{"id": 71, "type": "chain3", "story": "Elena gave $75 to Priya. Priya gave Chris $10. Chris gave Alicia $10.", "question": "How much money does Chris have?", "expected": 0}
+{"id": 72, "type": "chain3", "story": "Elena received $50 from Maya. Elena gave Marcus $50. David received $30 from Marcus.", "question": "How much money does Marcus have?", "expected": 20}
+{"id": 73, "type": "scoped2", "story": "Tom gave Sarah $80. Maya received $20 from Sarah.", "question": "How much money does Sarah have left from the $80?", "expected": 60}
+{"id": 74, "type": "distractor", "story": "Alicia gave Tom $100. Tom gave Elena $10. Sarah gave $20 to Alicia.", "question": "How much money does Tom have left from the $100?", "expected": 90}
+{"id": 75, "type": "total2", "story": "Maya received $80 from Sarah. Maya gave Chris $25.", "question": "How much money does Maya have?", "expected": 55}
+{"id": 76, "type": "multi_inflow", "story": "Priya received $5 from Elena. Chris gave Priya $20. Priya gave Sarah $5.", "question": "How much money is left from the $5 Elena gave Priya?", "expected": 0}
+{"id": 77, "type": "multi_inflow", "story": "David received $30 from Priya. Maya gave David $60. David gave John $10.", "question": "How much money is left from the $30 Priya gave David?", "expected": 20}
+{"id": 78, "type": "total2", "story": "David received $60 from Tom. Marcus received $60 from David.", "question": "How much money does David have?", "expected": 0}
+{"id": 79, "type": "scoped2", "story": "Sarah gave Maya $5. Maya gave Marcus $5.", "question": "How much money does Maya have left from the $5?", "expected": 0}
+{"id": 80, "type": "chain3", "story": "Alicia gave Maya $25. Maya gave $20 to Priya. Priya gave $10 to Elena.", "question": "How much money does Priya have?", "expected": 10}
+{"id": 81, "type": "distractor", "story": "Elena gave $50 to Marcus. Marcus gave $10 to David. Elena received $20 from Chris.", "question": "How much money does Marcus have left from the $50?", "expected": 40}
+{"id": 82, "type": "chain3", "story": "David received $5 from Tom. David gave John $5. John gave Maya $5.", "question": "How much money does David have?", "expected": 0}
+{"id": 83, "type": "total2", "story": "Chris gave Sarah $5. Sarah gave Tom $5.", "question": "How much money does Sarah have?", "expected": 0}
+{"id": 84, "type": "multi_inflow", "story": "Sarah gave Elena $10. Maya gave Elena $75. Marcus received $5 from Elena.", "question": "How much money does Elena have?", "expected": 80}
+{"id": 85, "type": "multi_inflow", "story": "Alicia gave $40 to Marcus. Marcus received $5 from Sarah. Marcus gave $25 to Elena.", "question": "How much money does Marcus have?", "expected": 20}
+{"id": 86, "type": "scoped2", "story": "Marcus gave $10 to Elena. Elena gave John $10.", "question": "How much money does Elena have left from the $10?", "expected": 0}
+{"id": 87, "type": "total2", "story": "Maya gave $75 to Elena. Elena gave David $75.", "question": "How much money does Elena have?", "expected": 0}
+{"id": 88, "type": "total2", "story": "Tom gave $50 to Chris. Chris gave $15 to John.", "question": "How much money does Chris have?", "expected": 35}
+{"id": 89, "type": "chain3", "story": "Alicia gave Tom $75. Tom gave Priya $75. David received $75 from Priya.", "question": "How much money does Priya have?", "expected": 0}
+{"id": 90, "type": "multi_inflow", "story": "Elena gave Chris $60. Priya gave $20 to Chris. Chris gave David $40.", "question": "How much money is left from the $60 Elena gave Chris?", "expected": 20}
+{"id": 91, "type": "distractor", "story": "Chris gave David $80. David gave Sarah $5. John gave $50 to Chris.", "question": "How much money does David have left from the $80?", "expected": 75}
+{"id": 92, "type": "scoped2", "story": "Priya received $50 from Elena. Priya gave Marcus $20.", "question": "How much money does Priya have left from the $50?", "expected": 30}
+{"id": 93, "type": "scoped2", "story": "David gave Chris $25. Chris gave Tom $25.", "question": "How much money does Chris have left from the $25?", "expected": 0}
+{"id": 94, "type": "multi_inflow", "story": "Chris gave $60 to Priya. Sarah gave $60 to Priya. Priya gave $10 to John.", "question": "How much money is left from the $60 Chris gave Priya?", "expected": 50}
+{"id": 95, "type": "chain3", "story": "Chris gave $50 to Tom. David received $5 from Tom. David gave Priya $5.", "question": "How much money does David have?", "expected": 0}
+{"id": 96, "type": "chain3", "story": "Tom gave Alicia $50. Alicia gave Sarah $25. David received $10 from Sarah.", "question": "How much money does Alicia have?", "expected": 25}
+{"id": 97, "type": "scoped2", "story": "Chris received $15 from Elena. Chris gave Alicia $5.", "question": "How much money does Chris have left from the $15?", "expected": 10}
+{"id": 98, "type": "distractor", "story": "Alicia gave $75 to Elena. Maya received $20 from Elena. Alicia received $80 from David.", "question": "How much money does Elena have left from the $75?", "expected": 55}
+{"id": 99, "type": "total2", "story": "Alicia gave Chris $100. Marcus received $15 from Chris.", "question": "How much money does Chris have?", "expected": 85}
+{"id": 100, "type": "scoped2", "story": "Sarah received $75 from Chris. Tom received $30 from Sarah.", "question": "How much money does Sarah have left from the $75?", "expected": 45}

@@ -1,0 +1,33 @@
+{
+  "set": "fresh",
+  "seed": 20261029,
+  "generator": "eval/gen_fresh.py (reuses eval/gen_eval.py generators + independent simulation)",
+  "counts": {
+    "money": 60,
+    "calculator": 20,
+    "symbolic": 30,
+    "synonym": 20,
+    "antonym": 15,
+    "negation": 20,
+    "multi_step": 20,
+    "ambiguous": 10,
+    "hard_negative": 15,
+    "dictionary": 20,
+    "encyclopedia": 10,
+    "knowledge_combo": 10
+  },
+  "count": 250,
+  "file": "data/eval_uplift_fresh.jsonl",
+  "sha256": "f9560c1245750662d6d1ce1936d348c9d8c5edd7731edcd17b7049d95fc89d72",
+  "disjointness": {
+    "frozen_texts_compared": 242,
+    "holdout_texts_compared": 100,
+    "probe_texts_compared": 100,
+    "overlaps_frozen": 0,
+    "overlaps_holdout": 0,
+    "overlaps_probes": 0,
+    "dropped_unmakeable": 0
+  },
+  "knowledge_items_note": "Dictionary/encyclopedia items reuse the frozen set's terms with NEW phrasings (router-accepted forms) because the fixture term pools are exhausted; genuinely new terms await the Phase 2 licensed store. Routing of all 30 knowledge questions to the expected term was verified at generation time.",
+  "routing_verified": 30
+}

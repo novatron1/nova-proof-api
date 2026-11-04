@@ -1,0 +1,80 @@
+# Wiktionary targeted term list (secondary source; WordNet is primary).
+# Terms WordNet lacks or where Wiktionary adds coverage: money slang,
+# multi-word encyclopedia terms, and the eval/demo vocabulary (fill
+# gaps only for entries; relations union with WordNet).
+# Licence: CC BY-SA 4.0.
+tenner
+fiver
+buck
+bucks
+dime
+nickel
+quarter
+penny
+cent
+grand
+dozen
+quid
+boiling point of water
+thermal expansion
+boiling point
+leap year
+carbon dioxide
+pacific ocean
+honey
+spider
+hexagon
+octagon
+hour
+minute
+jupiter
+mars
+penguin
+photosynthesis
+gravity
+orbit
+migrate
+hibernate
+evaporate
+condense
+auction
+receipt
+invoice
+discount
+deposit
+refund
+purchase
+lend
+borrow
+expand
+contract
+bicycle
+automobile
+triangle
+fragile
+generous
+ancient
+victory
+honest
+journey
+harvest
+handed
+passed
+transferred
+wired
+donated
+forwarded
+remitted
+sold
+bought
+received
+bank
+bat
+bark
+spring
+date
+right
+well
+light
+book
+boiling point

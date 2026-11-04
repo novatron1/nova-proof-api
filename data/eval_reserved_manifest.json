@@ -1,0 +1,36 @@
+{
+  "set": "reserved",
+  "seed": 20261030,
+  "generator": "eval/gen_reserved.py (reuses eval/gen_eval.py generators + independent simulation)",
+  "counts": {
+    "money": 60,
+    "calculator": 20,
+    "symbolic": 30,
+    "synonym": 20,
+    "antonym": 15,
+    "negation": 20,
+    "multi_step": 20,
+    "ambiguous": 10,
+    "hard_negative": 15,
+    "dictionary": 20,
+    "encyclopedia": 10,
+    "knowledge_combo": 10
+  },
+  "count": 250,
+  "file": "data/eval_uplift_reserved.jsonl",
+  "sha256": "693b426c9699dfe40d03a2d6a60c25c9e4639a8ff880472e69765b8a1fe8e063",
+  "disjointness": {
+    "frozen_texts_compared": 242,
+    "fresh_texts_compared": 250,
+    "holdout_texts_compared": 100,
+    "probe_texts_compared": 100,
+    "overlaps_frozen": 0,
+    "overlaps_fresh": 0,
+    "overlaps_holdout": 0,
+    "overlaps_probes": 0,
+    "dropped_unmakeable": 0
+  },
+  "knowledge_items_note": "Dictionary/encyclopedia items reuse the frozen set's terms with THIRD phrasings (unquoted 'Define X.' and double-quoted 'What does \"X\" mean?') because the fixture term pools are exhausted; genuinely new terms await the Phase 2 licensed store being wired into the harness. Routing of all 30 knowledge questions to the expected term was verified at generation time. The fixture-echo caveat from the Phase 1 audit applies to these items.",
+  "routing_verified": 30,
+  "reserved_for": "genuine-handoff experiment (arms A, H, H', B, C, D, E). Do not run live until the single-trace milestone is verified and the paid run is authorized."
+}
